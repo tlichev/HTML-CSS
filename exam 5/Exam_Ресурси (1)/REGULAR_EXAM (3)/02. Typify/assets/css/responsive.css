@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+    body{
+        width: 600px;
+    }
+
+
+    body > section.banner{
+        margin: 0;
+        padding: 64px 0;
+    }
+    body > section.banner > h2{
+        margin: 0px 20px;
+        display: block;
+        width: auto;
+    }
+
+    body > section.banner > p{
+        margin-top: 36px;
+    }
+    body > section.banner > ul{
+        width: 600px;
+        display: block;
+
+    }
+    body > section.banner > ul > li{
+        display: block;
+        margin: 0px 20px;
+    }
+    body > section.banner > ul > li > a{
+        display: block;
+    }
+
+    
+}
+    
