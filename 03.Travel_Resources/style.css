@@ -1,0 +1,255 @@
+body{
+    font-family: Poppins;
+    color: #000000;
+}
+
+/* SECTION */
+
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* BG-IMAGE */
+.hero-section .bg-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* NAVIGATION */
+
+.hero-section .navigation-bar{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: space-between;
+    margin: 32px auto;
+    padding: 0% 18%;
+    position: sticky;
+    
+}
+
+.hero-section .navigation-bar .travel{
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.hero-section .navigation-bar .navigation-list .item a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.hero-section .navigation-bar .navigation-list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-section .btn{
+    font-size: 20px;
+    border-radius: 32px;
+    background-color: #33020c;
+    border: 1px solid #33020c;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 28px;
+    width: 220px;
+    cursor: pointer;
+    
+}
+
+
+/* INFO */
+
+.hero-section .info{
+    position: absolute;
+    width: 100%;
+    padding: 0% 18%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.hero-section .info .title{
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 12px;
+    color: #363434;
+}
+
+.hero-section .info .subtitle{
+    font-size: 32px;
+    font-weight: 200;
+    margin-bottom: 32px;
+}
+
+.hero-section .info .content{
+    max-width: 500px;
+    font-size: 20px;
+    margin-bottom: 48px;
+
+}
+/* FAMOUS PLACES HEADER */
+
+.famous-places .title{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 128px;
+    margin-bottom: 6px;
+
+}
+
+.famous-places .subtitle{
+    font-size: 20px;
+    color: #c1bdb9;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+
+/* FAMOUS PLACES TABLE*/
+
+
+.famous-places .places{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 20%;
+
+
+}
+
+
+
+/* CARD */
+
+.card{
+    /* margin-bottom: 128px; */
+}
+.card .img-container{
+    display: inline-block;
+    width: 100%;
+    height: 320px;
+    margin-bottom: 12px;
+}
+
+.card .img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+.card .content .place{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.card .content .description{
+    display: block;
+    text-align: center;
+    padding: 0 24px;
+    margin-bottom: 32px;
+}
+
+.card .content .card-btn{
+    display: block;
+    margin: 0px auto;
+    font-size: 20px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    text-align: center;
+    padding: 18px 24px;
+    
+    cursor: pointer;
+    
+}
+
+/* FOOTER */
+
+.footer{
+    margin-top: 128px;
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6% 18%;
+    gap: 32px;
+   
+
+    
+}
+
+.footer .travel{
+    color: #ffffff;
+    font-size: 32px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.footer .link-list a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer .follow-us{
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "follow follow follow"
+    "instagram facebook twitter" ;
+    
+}
+
+.footer .follow-us .instagram{
+    grid-area: instagram;
+    text-align: center;
+    margin: 8px;
+    font-size: 24px;
+}
+
+.footer .follow-us .facebook{
+    grid-area: facebook;
+    text-align: center;
+    margin: 8px;
+    font-size: 24px;
+    
+}
+
+.footer .follow-us .twitter{
+    grid-area: twitter;
+    text-align: center;
+    margin: 8px;
+    font-size: 24px;
+}
+
+.footer .follow-us .follow{
+    grid-area: follow;
+    text-align: center;
+    font-size: 16px;
+}
+
